@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+}
+
+h1 { /* New style for the title */
+  font-size: 3em; /* Make the title big */
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
+input[type="date"], button {
+  padding: 12px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1.2em; /* Slightly larger font size for the input and button */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+p { /* Make all the text in the paragraph larger */
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#result { /* Style only the result paragraph */
+  font-size: 2em; /* Make the result text even bigger */
+}
+
+#result strong { /* Style only the number of weeks */
+  font-size: 2.5em; /* Make the number even bigger */
+}
