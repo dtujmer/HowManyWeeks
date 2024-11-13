@@ -9,7 +9,7 @@ body {
 }
 
 h1 { /* New style for the title */
-  font-size: 3em; /* Make the title big */
+  font-size: 2em; /* Make the title big */
   margin-bottom: 20px; /* Add some space below the title */
 }
 
